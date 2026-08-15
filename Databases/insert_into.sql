@@ -1,0 +1,2 @@
+-- Active: 1786770905739@@127.0.0.1@3306@hello_mysql
+ISERT INTO 'hello_sql'.'users'(user_id, name, surmane, age, init_date, email) Value("1", "Santiago", "Rivera", "21", "2004-12-18", "santiagorivera@sinsinati.com")
