@@ -2,7 +2,9 @@
 
 -- Sintaxis
 
-INSERT INTO tabla (columna1, columna2, columna3, columna4, columna5, columna6) VALUES (valor1, valor2, valor3, valor4, valor5, valor6) -- Este comando sirve para insertar datos en una tabla específica
+INSERT INTO tabla (columna1, columna2, columna3, columna4, columna5, columna6) VALUES (valor1, valor2, valor3, valor4, valor5, valor6)
+
+-- NOTA: Este comando sirve para insertar datos en una tabla específica
 
 -- Ejemplo:
 

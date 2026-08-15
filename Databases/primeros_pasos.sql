@@ -2,7 +2,9 @@
 
 -- Sintaxis para crear una base de datos
 
-CREATE DATABASE [nombre_de_la_base_de_datos] -- Este comando sirve para crear una base de datos
+CREATE DATABASE [nombre_de_la_base_de_datos]
+
+-- NOTA: Este comando sirve para crear una base de datos
 
 -- Ejemplo:
 

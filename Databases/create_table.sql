@@ -10,7 +10,9 @@ CREATE TABLE [nombre_de_la_tabla] (
     columna 5 tipo_dato [restricciones],
     columna 6 tipo_dato [restricciones],
     PRIMARY KEY (columna_clave_primaria)
-) -- Este comando sirve para crear una tabla
+)
+
+-- NOTA: Este comando sirve para crear una tabla
 
 -- Ejemplo:
 
