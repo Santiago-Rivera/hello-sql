@@ -1,4 +1,4 @@
--- Active: 1786813471273@@127.0.0.1@3306@hello_mysql
+-- Active: 1786898004073@@127.0.0.1@3306@hello_mysql
 
 -- Sintaxis
 
@@ -19,3 +19,7 @@ SELECT * FROM users WHERE email IS NOT NULL -- Este comando solo me trae todos l
 -- Usando AND
 
 SELECT * FROM users WHERE email IS NOT NULL AND age = 15 -- Este comando solo me trae a los emails que no son nulos y que además cumplen una condición
+
+-- Usando IFNULL
+
+SELECT name, surname, IFNULL(age, 0) AS age FROM users
