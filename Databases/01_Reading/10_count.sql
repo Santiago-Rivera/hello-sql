@@ -14,6 +14,6 @@ SELECT COUNT(*) FROM [nombre_de_la_tabla] WHERE condicion
 
 -- Ejemplos:
 
-SELECT COUNT(age) FROM users -- Este comando sirve para contar los datos que no son nulos de una tabla
+SELECT COUNT(age) FROM users
 
-SELECT COUNT(*) FROM users -- Este comando cuenta cada registro sin importar si hay valores vacios o nulos
+SELECT COUNT(*) FROM users

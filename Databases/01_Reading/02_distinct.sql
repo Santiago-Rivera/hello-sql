@@ -8,6 +8,6 @@ SELECT DISTINCT columna1, columna2 FROM [nombre_de_la_tabla]
 
 -- Ejemplo:
 
-SELECT DISTINCT * FROM users -- Trae todos los datos que son distintos en la tabla
+SELECT DISTINCT * FROM users
 
-SELECT DISTINCT age FROM users -- En este caso solo trae los datos que no se repiten y si hay un dato que se repite no lo muestra
+SELECT DISTINCT age FROM users

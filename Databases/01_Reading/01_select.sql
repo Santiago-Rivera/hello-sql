@@ -8,8 +8,8 @@ SELECT * FROM [nombre_de_la_tabla]
 
 -- Ejemplo:
 
-SELECT * FROM users -- Trae todos los datos de hay en la tabla
+SELECT * FROM users
 
-SELECT name FROM users -- Trae todos los datos de una columna especifica de la tabla
+SELECT name FROM users
 
-SELECT user_id, name FROM users -- Trae todos los datos de dos o varias columnas especificas de la tabla
+SELECT user_id, name FROM users

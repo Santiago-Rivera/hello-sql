@@ -8,6 +8,6 @@ SELECT  columna1, columna2 FROM [nombre_de_la_tabla] LIMIT [numero_de_filas]
 
 -- Ejemplo:
 
-SELECT * FROM users LIMIT 3 -- Este comando sirve para traer los primeros tres datos de una tabla
+SELECT * FROM users LIMIT 3
 
-SELECT * FROM users WHERE NOT email = 'sara@gmail.com' OR age = 15 LIMIT 2 -- Este comando sirve para solo traer a los usuarios que cumplen una de las dos condiciones
+SELECT * FROM users WHERE NOT email = 'sara@gmail.com' OR age = 15 LIMIT 2

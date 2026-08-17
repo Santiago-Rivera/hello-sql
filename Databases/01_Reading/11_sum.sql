@@ -14,4 +14,4 @@ SELECT SUM(columna) FROM [nombre_de_la_tabla] WHERE condicion
 
 -- Ejemplo:
 
-SELECT SUM(age) FROM users -- Este comando sirve para sumar todos los valores de la columna age
+SELECT SUM(age) FROM users

@@ -30,8 +30,8 @@ SELECT MAX(nombre_columna) FROM [nombre_de_la_tabla] WHERE condicion
 
 -- Ejemplos:
 
-SELECT MIN(age) FROM users -- Este comando me devuelve la edad minima de los usuarios
+SELECT MIN(age) FROM users
 
-SELECT MAX(age) FROM users -- Este comando me devuelve la edad maxima de los usuarios
+SELECT MAX(age) FROM users
 
-SELECT MAX(age) FROM users WHERE email = 'santiagorivera@sinsinati.com' -- Este comando me devuelve la edad del usuario que tenga el email que esta ingresado en la columna email
+SELECT MAX(age) FROM users WHERE email = 'santiagorivera@sinsinati.com'

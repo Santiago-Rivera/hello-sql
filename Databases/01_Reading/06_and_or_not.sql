@@ -20,8 +20,8 @@ SELECT columnas FROM [nombre_de_la_tabla] WHERE NOT condicion
 
 -- Ejemplo:
 
-SELECT * FROM users WHERE NOT email = 'sara@gmail.com' -- Este comando devuelve solo a los usuarios que no cumplen la condicion
+SELECT * FROM users WHERE NOT email = 'sara@gmail.com'
 
-SELECT * FROM users WHERE NOT email = 'sara@gmail.com' AND age = 15 -- Este comando devuelve solo a los usuarios que cumplen la condicion
+SELECT * FROM users WHERE NOT email = 'sara@gmail.com' AND age = 15
 
-SELECT * FROM users WHERE NOT email = 'sara@gmail.com' OR age = 15 -- Este comando devuelve solo a los usuarios que cumplan una de las dos condicion
+SELECT * FROM users WHERE NOT email = 'sara@gmail.com' OR age = 15

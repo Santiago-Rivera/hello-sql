@@ -12,14 +12,13 @@ SELECT * FROM [nombre_de_la_tabla] WHERE columna IS NOT NULL
 
 -- Ejemplo:
 
-SELECT * FROM users WHERE email IS NULL -- Este comando solo me trae todos los emails que son nulos
+SELECT * FROM users WHERE email IS NULL
 
-SELECT * FROM users WHERE email IS NOT NULL -- Este comando solo me trae todos los emails que no son nulos
+SELECT * FROM users WHERE email IS NOT NULL
 
 -- Usando AND
 
-SELECT * FROM users WHERE email IS NOT NULL AND age = 15 -- Este comando solo me trae a los emails que no son nulos y que además cumplen una condición
-
+SELECT * FROM users WHERE email IS NOT NULL AND age = 15
 -- Usando IFNULL
 
 SELECT name, surname, IFNULL(age, 0) AS age FROM users
