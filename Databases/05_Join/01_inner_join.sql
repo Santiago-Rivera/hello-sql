@@ -2,7 +2,10 @@
 
 -- Sintaxis
 
-SELECT columnas FROM [nombre_de_la_tabla] INNER JOIN [nombre_de_la_tabla] ON [nombre_de_la_tabla].columna = [nombre_de_la_tabla].columna
+SELECT columnas
+FROM [nombre_de_la_tabla]
+INNER JOIN [nombre_de_la_tabla]
+    ON [nombre_de_la_tabla].columna = [nombre_de_la_tabla].columna
 
 -- NOTA: Esta instrucción combina únicamente los registros que tienen valores coincidentes en ambas tablas
 
