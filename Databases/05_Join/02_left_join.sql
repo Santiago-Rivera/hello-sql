@@ -5,7 +5,7 @@
 SELECT columnas
 FROM tabla1 AS t1
 LEFT JOIN tabla2 AS t2
-ON t1.columna_comun = t2.columna_comun;
+ON t1.columna_comun = t2.columna_comun
 
 -- NOTA: Esta instrucción selecciona todos los registros de la tabla izquierda y las filas coincidentes de la tabla derecha
 
