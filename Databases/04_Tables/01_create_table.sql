@@ -1,18 +1,3 @@
--- Active: 1786898004073@@127.0.0.1@3306@test
-
--- Sintaxis
-
-CREATE TABLE [nombre_de_la_tabla] (
-    columna1 tipo_dato [restricción],
-    columna2 tipo_dato [restricción],
-    columna3 tipo_dato [restricción],
-    PRIMARY KEY (columna_clave)
-)
-
--- NOTA: Este comando sirve para crear una tabla con su nombre y una lista de columnas entre paréntesis, donde defines el nombre, el tipo de dato y las reglas de cada campo
-
--- Ejemplo:
-
 CREATE TABLE persons (
     id int,
     name varchar(100),

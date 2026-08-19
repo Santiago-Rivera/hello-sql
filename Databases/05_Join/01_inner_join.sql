@@ -1,16 +1,3 @@
--- Active: 1786898004073@@127.0.0.1@3306@hello_mysql
-
--- Sintaxis
-
-SELECT columnas
-FROM [nombre_de_la_tabla]
-INNER JOIN [nombre_de_la_tabla]
-    ON [nombre_de_la_tabla].columna = [nombre_de_la_tabla].columna
-
--- NOTA: Esta instrucción combina únicamente los registros que tienen valores coincidentes en ambas tablas
-
--- Ejemplo:
-
 SELECT * FROM users
 INNER JOIN dni
 

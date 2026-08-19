@@ -1,13 +1,3 @@
--- Active: 1786898004073@@127.0.0.1@3306@test
-
--- Sintaxis
-
-ALTER TABLE [nombre_de_la_tabla] [acción]
-
--- NOTA: Este comando permite cambiar la estructura de una tabla existente
-
--- Ejemplo:
-
 ALTER TABLE persons8
 ADD surname varchar(150)
 

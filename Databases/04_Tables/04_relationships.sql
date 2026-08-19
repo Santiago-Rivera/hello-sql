@@ -1,26 +1,3 @@
--- Active: 1786898004073@@127.0.0.1@3306@hello_mysql
-
--- Sintaxis
-
-CREATE TABLE clientes (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(50)
-);
-
-CREATE TABLE pedidos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    fecha DATE,
-    cliente_id INT,
-    CONSTRAINT fk_cliente FOREIGN KEY (cliente_id)
-    REFERENCES clientes(id)
-    ON DELETE CASCADE
-    ON UPDATE CASCADE
-);
-
--- NOTA: Para relacionar tablas se usan las claves foraneas (FOREIGN KEY) que se conectan con las claves primarias (PRIMARY KEY) de otra tabla
-
--- Ejemplo:
-
 -- Relaciones 1:1 (uno a uno):
 
 CREATE TABLE dni(
